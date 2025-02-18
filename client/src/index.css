@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: #fff0db;
   scroll-behavior: smooth;
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -15,5 +15,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+a{
+  text-decoration: none;
+  color:black;
 }
 
