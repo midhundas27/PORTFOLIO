@@ -1,0 +1,73 @@
+.main-container{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    background-color: #fff0db;
+}
+.main-top-section{
+    margin: 50px 0px 0px 0px;
+
+}
+.main-text{
+    margin: 0px;
+    font-family: "Big Shoulders Display", serif;
+    display: flex;
+    color: #594aeb;
+    -webkit-text-stroke: 1px aqua;
+    justify-content: center;
+    letter-spacing: -10px;
+    font-size: 300px;
+    font-weight: 900;
+}
+.main-image-box{
+    position: relative;
+    z-index: 1;
+    top: -191px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+.main-special-text{
+ position: relative;
+ z-index: 3;
+}
+.main-lower-text{
+    position: relative;
+    top: -300px;
+}
+.main-bottom-section{
+    margin: -330px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+.main-bottom-textbox{
+    margin-left: 630px;
+}
+.main-bottom-text{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    margin: 0px auto;
+}
+.main-bottom-button-box{
+    margin-right: 110px;
+    margin-top: 20px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    border: 1px solid #594aeb;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.main-bottom-button-text{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: #594aeb;
+    padding: 5px 0px 5px 10px;
+}
+.main-bottom-button-imagebox{
+    padding: 6px 10px 0px 5px;
+}
