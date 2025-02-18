@@ -1,0 +1,80 @@
+.about-container{
+    background-color: #fff0db;
+    margin: 0px 0px 100px 0px;
+    width: 100%;
+}
+.about-subcontainer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 200px
+}
+.about-coverpic-box{
+    background: linear-gradient(to bottom, #fff0db 9%, #594aeb 100%);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    height: 100%;
+}
+.about-coverpic{
+    padding: 0px 20px 0px 20px;
+    height: 100%;
+}
+.about-title{
+    font-family: "Big Shoulders Display", serif;
+    display: flex;
+    color: #594aeb;
+    -webkit-text-stroke: 0.2px aqua;
+    justify-content: flex-start;
+    letter-spacing: 0px;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.about-description{
+    margin-top: 30px;
+    font-size: 16px;
+    width: 470px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.about-statistics{
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+}
+.about-statistics-count{
+    font-family: "Big Shoulders Display", serif;
+    display: flex;
+    letter-spacing: 0px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.about-statistics-text{
+    display: flex;
+    justify-content: start;
+    font-size: 16px;
+    width: 150px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.about-download-cv-button{
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+    height: fit-content;
+    width:fit-content;
+    border: 1px solid #594aeb;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.about-download-cv-text{ 
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: #594aeb;
+    padding: 5px 0px 5px 10px;
+}
+.about-download-cv-icon{
+    padding: 6px 10px 0px 5px;
+}
