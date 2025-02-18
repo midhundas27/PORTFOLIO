@@ -1,0 +1,28 @@
+.header-container{
+    position: sticky;
+    background-color: #fff0db;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+}
+.header-sub-container{
+    display: flex;
+    justify-content: space-around;
+}
+.header-sign-outerbox{
+    display: flex;
+    margin: 20px 0px 10px 0px;
+}
+.header-options-box{
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-options{
+    color: #000000;
+    cursor: pointer;
+}
